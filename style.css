@@ -1,0 +1,426 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4vh;
+    padding: 0px 20px 0px 20px;
+    background-color: rgb(47, 46, 46);
+    color: white;
+    position: sticky;
+    top: 0;
+}
+p i{
+    padding-right: 6px;
+}
+#currency{
+    padding-right: 3px;
+    border: none;
+    background:  rgb(47, 46, 46);
+    color: white;
+}
+#language{
+    padding-right: 4px;
+    border: none;
+    background:  rgb(47, 46, 46);
+    color: white;
+    width: 4.1vw;
+}
+.header-brand{
+    padding-right: 6px;
+    color: white;
+}
+#second-bar{
+    display: block;
+}
+#owner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px 30px 0px;
+}
+#heisenberg{
+    font-size: 30px;
+}
+#collections{
+    display: flex;
+    justify-content: space-between;
+}
+.six{
+    padding-right: 20px;
+    color: black;
+}
+#six-store{
+    padding: 0px 20px 0px 40px;
+    color: black;
+}
+.tag{
+    padding-right: 30px;
+    color: gray;
+}
+.aside{
+    padding-left: 15px;
+}
+#first-article{
+    height: 90vh;
+    background-image: url(images/lap.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+#article-button-1{
+    background: rgb(232, 45, 45);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 3vh;
+    width: 8vw;
+    border-radius: 20px;
+    border: none;
+    margin: 30px 0px 15px 70px;
+}
+#mobile{
+    font-size: 22px;
+    color: white;
+    padding: 0px 0px 15px 70px;
+}
+#sentence{
+    color: rgb(243, 237, 237);
+    padding: 0px 0px 15px 70px;
+}
+#article-button-2{
+    background: white;
+    height: 4vh;
+    width: 10vw;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0.3px solid rgb(120, 197, 236);
+    margin: 0px 0px 0px 70px;
+}
+#topic{
+    margin: 60px 0px 10px 120px;
+    font-size: 2rem;
+}
+#collection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 100%;
+    overflow: scroll;
+}
+.main-image-div{
+    height: 30vh;
+    width: 21vw;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-image-div p{
+    padding: 6px 0px 6px 0px;
+}
+.image img{
+    height: 22vh;
+    width: 17vw;
+    padding-top: 3px;
+}
+#featured-products{
+    display: flex;
+    justify-content: center;
+    height: 44vh;
+    overflow: auto;
+    overflow-y: hidden;
+}
+.featured-div{
+    height: 40vh;
+    width: 21vw;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    border: 0.2px solid gray;
+}
+#featured-div-1{
+    height: 40vh;
+    width: 21vw;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    border: 0.2px solid gray;
+}
+.featured-image-div img{
+    height: 22vh;
+    width: 17vw;
+    margin: 0px 0px 0px 35px;
+}
+.featured-div span{
+    padding: 6px 0px 0px 32px;
+}
+#featured-div-1 span{
+    padding: 0px 0px 0px 32px;
+}
+.three-buttons-1{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: none;
+    background: gray;
+}
+.three-buttons-2{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: none;
+    background: rgb(56, 89, 175);
+}
+.three-buttons-3{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: none;
+    background: rgb(102, 188, 237);
+}
+.three-paragraphs{
+    padding-top: 5px;
+}
+#cart{
+    width: 17vw;
+    height: 3vh;
+    background: white;
+    border-radius: 10px;
+    border: 0.5px solid black;
+    margin-top: 10px;
+}
+.three-buttons-4{
+     height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: none;
+    background: rgba(117, 70, 70, 0.87);
+}
+.three-buttons-5{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: none;
+    background: rgb(173, 113, 173);
+}
+.three-buttons-6{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: none;
+    background: orange;
+}
+.three-buttons-7{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: none;
+    background: rgb(4, 159, 4);
+}
+#sign-up{
+    height: 30vh;
+    background: rgb(236, 235, 235);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#sign-up-paragraph-1{
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    padding-bottom: 20px;
+}
+#email{
+    width: 18vw;
+    height: 4vh;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+#sign-up-button{
+    width: 5vw;
+    height: 4vh;
+    background: black ;
+    color: white;
+    margin-left: -5px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+}
+#sign-up span{
+    margin-top: 18px;
+}
+#main-phone-div{
+    display: flex;
+    justify-content: center;
+}
+#phone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 17vw;
+    height: 40vh;
+    background: rgb(96, 95, 95);
+    padding-top: 40px;
+}
+#phone img{
+    height: 30vh;
+    width: 10vw;
+    border: none;
+}
+#phone button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: -12rem;
+    border: none;
+    background: red;
+    color: white;
+}
+#telephone{
+    padding: 50px 0px 0px 50px;
+}
+.stock{
+    padding-bottom: 10px;
+}
+#four-circle{
+    display: flex;
+}
+.sub-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sub-button button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    margin-right: 15px;
+}
+#deal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    font-size: 1.3rem;
+}
+#reward{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.2px solid gray;
+    height: 12vh;
+    width: 90%;
+    margin: 45px 0px 60px 80px;
+}
+.two-items{
+    display: flex;
+    margin-right: 150px;
+    border-right: 0.1px solid gray;
+    padding-right: 40px;
+}
+#last-item{
+    display: flex;
+    
+}
+.three-icons{
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+}
+.two-items-p1{
+    padding: 0px 0px 10px 50px;
+}
+#footer-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(236, 235, 235);
+    height: 30vh;
+}
+.foot-div{
+    margin-right: 300px;
+}
+#foot-owner{
+    padding: 0px 0px 0px 10px;
+}
+.foot-headings{
+    padding-bottom: 20px;
+}
+.foot-contents{
+    padding-bottom: 10px;
+}
+#footer-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    background: rgb(214, 211, 211);
+    padding: 0px 20px 0px 20px;
+}
+@media (max-width: 768px) {
+    .six{
+        padding-right: 10px;
+    }
+    #six-store{
+        padding: 0px 10px 0px 5px;
+    }
+    .tag{
+        padding-right: 10px;
+    }
+    .aside{
+        padding-left: 10px;
+    }
+    #article-button-1{
+        height: 30px;
+        width: 150px;
+    }
+    #article-button-2{
+        height: 30px;
+        width: 150px;
+    }
+    #first-article{
+        background-position: center;
+    }
+    header{
+        padding: 0px 0px 0px 0px;
+    }
+    #language{
+        width: 4.4rem;
+    }
+    .foot-div{
+        margin: 0px 40px 0px 10px;
+    }
+    #reward{
+        width: 95%;
+        margin: 45px 0px 60px 20px;
+        height: 13vh;
+    }
+    .two-items{
+        margin: 0px 0px 0px 0px;
+    }
+    .three-icons{
+        padding: 0px 25px 0px 25px;
+    }
+    #reward h4{
+        padding-left: 25px;
+    }
+    #phone{
+        width: 35vw;
+    }
+    #phone img{
+        width: 17vw;
+    }
+    #email{
+        width: 35vw;
+    }
+    #sign-up-button{
+        width: 10vw;
+    }
+}
